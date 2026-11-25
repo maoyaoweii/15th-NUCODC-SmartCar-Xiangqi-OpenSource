@@ -25,7 +25,7 @@
 
 ## 二、多分辨率纯推理 ONNX 权重下载（Release `v1.0.0`）
 
-请前往本仓库右侧 **[Releases v1.0.0](https://github.com/xianshengl487-star/15th-NUCODC-SmartCar-Xiangqi-OpenSource/releases/tag/v1.0.0)** 按车载硬件算力下载对应分辨率的 `.onnx` 权重（完整 SHA-256 见 [SHA256SUMS.txt](SHA256SUMS.txt)）：
+请前往本仓库右侧 **[Releases v1.0.0](https://github.com/maoyaoweii/15th-NUCODC-SmartCar-Xiangqi-OpenSource/releases/tag/v1.0.0)** 按车载硬件算力下载对应分辨率的 `.onnx` 权重（完整 SHA-256 见 [SHA256SUMS.txt](SHA256SUMS.txt)）：
 
 ### Stage 1 检测权重（2 类：`0: chess_piece`, `1: smart_car`）
 
