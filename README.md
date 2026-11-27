@@ -123,6 +123,8 @@ python infer_onnx_twostage.py \
 - `infer_onnx_twostage.py`：零 PyTorch 两阶段 ONNX 推理主程序（支持图片/文件夹/视频/摄像头、自适应去电线门控、14 类 & 10 类分值双输出、测距与 JSON 导出）
 - `video_tracker.py`：轻量级多帧目标追踪 + 14 类概率 EMA 投票 + Stage 2 锁定缓存
 - `calibrate_camera.py`：67 mm 标准棋子单目宽度测距 & 4 点地面单应性标定工具
+- `world_model.py`：零 PyTorch **全局世界模型核心引擎**（4 路高装 ToF 射线-矩形求交定位 + 对手遮挡剔除 + 视觉全局投影 + FOV 视野清理 + 球门 A/B/C 安全区计分 + 120s/60s 战术调度）
+- `docs/WORLD_MODEL_ARCHITECTURE.md`：**[全局世界模型完整解决方案](docs/WORLD_MODEL_ARCHITECTURE.md)**（五大模块架构与解决痛点清单、4 路 ToF + IMU + V5.2 视觉融合数学模型、球门 50 枚容量与 A/B/C 安全分区、硬件选型与检录避坑）
 - `docs/DEPLOYMENT_AND_CALIBRATION.md`：**[完整工程部署手册](docs/DEPLOYMENT_AND_CALIBRATION.md)**（含 V1→V5.2 避坑演进表、TensorRT/RKNN/OpenVINO 转换命令、地面单应性实操、串口 JSON 协议与 120 秒对抗策略）
 - `docs/RULES_AND_TACTICS.md`：**[第十五届光赛官方规则解析与实战战术指南](docs/RULES_AND_TACTICS.md)**（依据 2026-11-17 组委会〔2026〕1 号细则：300mm 挡板 / 2.5kg 修订、二八分值博弈、120s 三阶段状态机、球门防压线/防叠放、尾盘偷家判据与 60s 金球闪电战模式）
 - `SHA256SUMS.txt`：V5.2 全部 8 个 ONNX 权重 SHA-256 校验清单
