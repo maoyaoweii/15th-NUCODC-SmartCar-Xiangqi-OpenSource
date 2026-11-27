@@ -124,6 +124,7 @@ python infer_onnx_twostage.py \
 - `video_tracker.py`：轻量级多帧目标追踪 + 14 类概率 EMA 投票 + Stage 2 锁定缓存
 - `calibrate_camera.py`：67 mm 标准棋子单目宽度测距 & 4 点地面单应性标定工具
 - `docs/DEPLOYMENT_AND_CALIBRATION.md`：**[完整工程部署手册](docs/DEPLOYMENT_AND_CALIBRATION.md)**（含 V1→V5.2 避坑演进表、TensorRT/RKNN/OpenVINO 转换命令、地面单应性实操、串口 JSON 协议与 120 秒对抗策略）
+- `docs/RULES_AND_TACTICS.md`：**[第十五届光赛官方规则解析与实战战术指南](docs/RULES_AND_TACTICS.md)**（依据 2026-11-17 组委会〔2026〕1 号细则：300mm 挡板 / 2.5kg 修订、二八分值博弈、120s 三阶段状态机、球门防压线/防叠放、尾盘偷家判据与 60s 金球闪电战模式）
 - `SHA256SUMS.txt`：V5.2 全部 8 个 ONNX 权重 SHA-256 校验清单
 
 ---
